@@ -13,6 +13,7 @@
 		856A99E41E5C437700105C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856A99E21E5C437700105C0C /* Main.storyboard */; };
 		856A99E61E5C437700105C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856A99E51E5C437700105C0C /* Assets.xcassets */; };
 		856A99E91E5C437700105C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856A99E71E5C437700105C0C /* LaunchScreen.storyboard */; };
+		856A99F21E5C440200105C0C /* ZJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 856A99F11E5C440200105C0C /* ZJPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		856A99E51E5C437700105C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		856A99E81E5C437700105C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		856A99EA1E5C437700105C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856A99F01E5C440200105C0C /* ZJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPerson.h; sourceTree = "<group>"; };
+		856A99F11E5C440200105C0C /* ZJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				856A99E71E5C437700105C0C /* LaunchScreen.storyboard */,
 				856A99EA1E5C437700105C0C /* Info.plist */,
 				856A99D91E5C437700105C0C /* Supporting Files */,
+				856A99F01E5C440200105C0C /* ZJPerson.h */,
+				856A99F11E5C440200105C0C /* ZJPerson.m */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856A99F21E5C440200105C0C /* ZJPerson.m in Sources */,
 				856A99E11E5C437700105C0C /* ViewController.m in Sources */,
 				856A99DE1E5C437700105C0C /* AppDelegate.m in Sources */,
 				856A99DB1E5C437700105C0C /* main.m in Sources */,
